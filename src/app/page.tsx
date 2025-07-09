@@ -1,10 +1,11 @@
+import Carousel from "@/components/Carousel";
 import HeroSection from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
 import React from "react";
 
 const page = () => {
   return (
-    <div className="h-full w-full relative">
+    <div className=" w-full relative">
       <div className="relative">
         {" "}
         <img
@@ -15,6 +16,7 @@ const page = () => {
         <NavBar />
         <HeroSection />
       </div>
+      <Carousel />
     </div>
   );
 };

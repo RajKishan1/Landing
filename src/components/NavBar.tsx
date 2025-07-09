@@ -17,7 +17,7 @@ export const Links = ({ Text }: prop) => {
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 w-full h-16 backdrop-blur-lg bg-transparent z-10 pt-4">
+    <div className="sticky top-0 w-full p-5 backdrop-blur-lg bg-transparent z-10 ">
       <div
         className={`max-w-[1220px] text-sm mx-auto my-auto flex items-center justify-between ${inter.className}`}
       >
@@ -27,7 +27,7 @@ const NavBar = () => {
           <Links Text="Help" />
           <Links Text="Pricing" />
         </div>
-        <div className="flex items-center gap-3 text-sm font-medium">
+        <div className="flex items-center gap-4 text-sm font-medium text-white">
           Login{" "}
           <a
             href="#"
