@@ -1,3 +1,4 @@
+import AnimatedText from "@/components/AnimatedText";
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -7,7 +8,7 @@ import React from "react";
 const page = () => {
   return (
     <div className=" w-full relative">
-      <div className="relative">
+      <div className="relative bg-black">
         {" "}
         <img
           src="/framer.avif"
@@ -16,6 +17,7 @@ const page = () => {
         />
         <NavBar />
         <HeroSection />
+        <AnimatedText />
       </div>
       <Carousel />
       <Footer />
