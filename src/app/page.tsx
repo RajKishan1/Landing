@@ -3,12 +3,13 @@ import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
+import { Testimony } from "@/components/Testimony";
 import React from "react";
 
 const page = () => {
   return (
     <div className=" w-full relative">
-      <div className="relative bg-black">
+      <div className="relative ">
         {" "}
         <img
           src="/framer.avif"
@@ -20,6 +21,7 @@ const page = () => {
         <AnimatedText />
       </div>
       <Carousel />
+      <Testimony />
       <Footer />
     </div>
   );
