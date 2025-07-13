@@ -9,7 +9,7 @@ export function Testimony() {
           "absolute inset-0",
           "[background-size:40px_40px]",
           "[background-image:linear-gradient(to_right,#333333_1px,transparent_1px),linear-gradient(to_bottom,#333333_1px,transparent_1px)]",
-          "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
+          "dark:[background-image:linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
         )}
       />
       {/* Radial gradient for the container to give a faded look */}
