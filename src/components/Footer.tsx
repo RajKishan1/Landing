@@ -4,9 +4,9 @@ import { TextHoverEffect } from "./ui/text-hover-effect";
 const Footer = () => {
   return (
     <div className="h-screen  bg-black p-0   ">
-      <div className="h-1/2 max-w-[1220px] mx-auto">
+      <div className="h-1/2 max-w-[220px] mx-auto">
         {" "}
-        <TextHoverEffect text="Codey" />
+     <img src="/codey.png" alt="" />
       </div>
       {/* <hr className="max-w-[1220px] mx-auto bg-slate-800 my-4" /> */}
       <div className="h-2/5 max-w-[1220px] mx-auto text-white flex items-center justify-between border-b border-t border-neutral-700">
