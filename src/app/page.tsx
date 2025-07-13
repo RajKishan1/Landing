@@ -14,14 +14,14 @@ const page = () => {
         {" "}
         <img
           src="/framer.avif"
-          className="absolute top-0 left-0 -z-20 w-[120%] h-auto"
+          className="absolute top-0 left-0 -z-20 w-[120%] h-auto opacity-90"
           alt=""
         />
         <NavBar />
         <HeroSection />
         <AnimatedText />
       </div>
-      <Carousel />
+      {/* <Carousel /> */}
       <Testimony />
       <FAQ />
       <Footer />
