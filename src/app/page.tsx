@@ -1,5 +1,6 @@
 import AnimatedText from "@/components/AnimatedText";
 import Carousel from "@/components/Carousel";
+import ExampleFeatureSection from "@/components/ExampleFeatureSection";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -14,7 +15,7 @@ const page = () => {
         {" "}
         <img
           src="/framer.avif"
-          className="absolute top-0 left-0 -z-20 w-[120%] h-auto opacity-90"
+          className="absolute top-0 left-0 -z-20 w-[120%] h-auto opacity-[91%]"
           alt=""
         />
         <NavBar />
@@ -22,6 +23,7 @@ const page = () => {
         <AnimatedText />
       </div>
       {/* <Carousel /> */}
+      <ExampleFeatureSection />
       <Testimony />
       <FAQ />
       <Footer />

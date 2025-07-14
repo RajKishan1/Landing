@@ -17,7 +17,7 @@ export const Links = ({ Text }: prop) => {
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 w-full p-5 backdrop-blur-lg bg-transparent z-10 ">
+    <div className="sticky top-0 w-full p-5 backdrop-blur-xl bg-transparent z-10 ">
       <div
         className={`max-w-[1220px] text-sm mx-auto my-auto flex items-center justify-between ${inter.className}`}
       >

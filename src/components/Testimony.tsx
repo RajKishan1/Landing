@@ -18,7 +18,7 @@ export function Testimony() {
         <p className="relative z-20 bg-clip-text py-8 text-4xl font-bold text-white sm:text-7xl">
           Testimonials
         </p>
-        <div className="w-[95%] mt-10 px-16 xl:px-12 grid grid-cols-3 justify-center gap-6 items-center ">
+        <div className="max-w-[1420px] mt-10 px-16 xl:px-12 grid grid-cols-3 justify-center gap-6 items-center ">
           <TestimonyCard />
           <TestimonyCard />
           <TestimonyCard />
